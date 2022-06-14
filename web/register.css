@@ -5,7 +5,7 @@ main{
    align-items: center;
 }
 body{
-    overflow: hidden;
+    overflow: auto;
     background-image: url(../images/logo.png);
     background-size: cover;
     
