@@ -1,0 +1,61 @@
+main{
+   min-height: 90vh; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+body{
+    overflow: hidden;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    
+    background-position: center;
+
+}
+.register{
+    border-radius: 20px ;
+    border: 1px rgb(52, 243, 14) solid;
+margin:  0 auto;
+text-align: center;
+width: 90vw;
+background-color: rgba(163, 159, 159,0.8);
+
+}
+.register i{
+    color: yellow;
+    
+    padding: 20px;
+}
+.register p{
+    font-family: 'Lobster', cursive;
+}
+label{
+    display: block;
+   
+    padding: 3vw;
+    color: rgb(255, 251, 5);
+    font-family: 'Roboto Mono', monospace;
+}
+input[type=submit]{
+    display: block;
+    border: 1px rgb(52, 243, 14) solid;
+   margin: 10px auto;
+   padding: 2px 50px;
+   background-color: transparent;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+}
+h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(51, 51, 51);
+}
+.footer{
+    background-color: rgb(39, 53, 66);
+    width: auto;
+    height: 5vh;
+    margin-top: auto;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+
+    <script src="https://kit.fontawesome.com/f3ff5a8056.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+ 
+ <main>
+      <div class="register">
+        <h2>validate your account</h2>
+      <i class="fa-solid fa-person-walking-dashed-line-arrow-right"></i>
+        <form action="" method="POST">
+    <label for="username">username</label>
+    <input type="text" name="username" required>
+    <label for="password">password</label>
+    <input type="password" name="password" required>
+    <label for="OTP">OTP</label>
+    <input type="text" name="otp" required>
+    <label for="referal">referal code</label>
+    <input type="text" name="referal" required>
+
+    <input type="submit" value="validate" name="validate">
+</form>
+<p>make payments <br> through this number <b>0701185813</b> </p>
+
+<p> have an account ?<a href="login.php">log in here</a></p>
+<p>validate account <a href="validate.php"> here</a></p>
+      </div>
+ 
+
+
+   
+</main>
+
+<div class="footer">
+    <p>designed by einstein</p>
+</div>
+    
+    
+  
+</body>
+
+</html>

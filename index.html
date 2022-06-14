@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://kit.fontawesome.com/f3ff5a8056.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+         
+        <nav>
+           <h1>einstein</h1>
+           <h1>welcome</h1>
+        </nav> 
+        <!--
+        <div class="datetime">
+            <div class="date">
+                <span id="dayname">Day</span>,
+                <span id="month">Month</span>,
+                <span id="daynum">00</span>,
+                <span id="year">Year</span>
+            </div>
+            <div class="time">
+                <span id="hour">00</span>:
+                <span id="minues">00</span>:
+                <span id="seconds">00</span>
+                <span id="period">AM</span>
+            </div>
+        </div>-->
+        <div class="quote">
+            <h2 >"you do not make money by borrowing money; 
+         you make money making money-making money.
+         on Making Money"
+     </h2>
+     <section>
+         *Lamine Pearlheart*
+     </section>
+ </div>
+ <div class="down">
+    <i class="fa-solid fa-arrow-down-long"></i>
+</div>
+    </header>
+ 
+
+         <main>
+       
+
+ 
+<div class="about">
+    <h1>WHO</h1>
+    <P>we recruit a business oriented individuals,creative,self-confidence optimist and any enterpreneural skills
+        .I bilieve this is your oportunity to test your level of enterpreneural skills,according to JULIA FARIA`S article
+         in feb 18th2022 most people consider self employment,
+        we want individuals desparate for capital to explore their business adventure
+    </P>
+   " ............."
+</div>
+<div class="about">
+    <h1>WHAT</h1>
+    <P>einstein is an online firm that compiles defrent busineses under on emarket and gives you oportunity to sell and earn commision <br />
+    our main aim is to engage in distribution of cash and to equip you with  the financial education required to run your own
+     online empire and also to give you sellings skills ,we offer loans too at no intrest rate and base on the state of the country the loan repayment is not presured.
+    
+</P>
+" ............."
+</div>
+<div class="about">
+    <h1>WHY</h1>
+    <P> We give you an oportunity to generate incomeat at a more affordable cost ,our main goal is to make sure your financial status is
+         taken care of by the end of one year
+        ,through your commitments you will be able to make more than you can imagine ,,
+       in a few months through our company you will be able to have your own online store where you can advertise your offers and manage your business
+    </P>
+    " ............."
+</div>
+<div class="login">
+    <a href="web/login.php"><button class="btn">log in</button></a>
+    <p>dont have an account ?<a href="web/register.php">register here</a></p>
+</div>
+
+    <div class="charts">
+    
+      
+  </div>
+<div class="footer">
+    <p>designed by einstein</p>
+</div>
+   </main>
+
+
+    
+    
+  
+</body>
+<script>
+    function updateClock(){
+        var now = new Date();
+        var dname = now.getDay(),
+        mo = now.getMonth(),
+        dnum = now.getDate(),
+        yr = now.getFullYear(),
+        hou = now.getHours(),
+        min = now.getMinutes(),
+        sec = now.getSeconds(),
+        pe ="AM";
+        
+
+        if (hou == 0){
+             hou=12;
+        }
+
+        if (hou > 12){
+             hou = hou - 12;
+             pe= "PM";
+        }
+    Number.prototype.pad = function(digits){
+        for(var n = this.toString(); n.length; n=0+n);
+        return n;
+    }
+
+        var month =[ "january","february","march","april","may","june","july","august","september","october","november","december"];
+        var week =["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+        var ids =["dayname","month","daynum","year","hour","minutes","seconds","period" ];
+        var values = [week[dname] ,month[mo],dnum.pad(2), yr,hou.pad(2),,min.pad(2),,sec.pad(2),,pe ];
+
+        for( var i = 0 ; i < ids.length ; i++)
+        document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+      
+   } 
+   function initClock(){
+    updateClock();
+    window.setInterval("updateClock()",1);
+   }
+
+  
+</script>
+</html>

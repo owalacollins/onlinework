@@ -1,0 +1,124 @@
+body{
+    background-image: url(images/work\ from\ home2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(189, 190, 190);
+  
+}
+
+nav{
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h4{
+    text-align: center;
+    
+}
+h5{
+    color: blue;
+    
+}
+/* main*/
+main{
+ 
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+}
+.quote{
+    background-color: rgba(134, 133, 133, 0.7);
+    border-radius: 10px;
+    max-width: 90vw;
+    display: block;
+    margin: 10vh auto;
+
+    
+}
+header{
+    height: 100vh;
+}
+.about{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+   width: 90vw;
+    display: block;
+    color: aquamarine;
+    margin: 10vh auto;
+    padding: 2vw;
+ 
+}
+.about p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ h2{
+text-align: center;
+color: rgb(230, 230, 230);
+font-family: 'Fascinate', cursive;
+}
+
+section{
+    text-align: center;
+    color: rgb(17, 238, 209);
+}
+.down {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.btn{
+    background-color: darkturquoise;
+    padding: 1vh 10vw;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+.datetime{
+    border: 2px rgb(253, 253, 253) solid;
+    background-color: blue;
+    font-size: larger;
+    text-align: center;
+    padding: 10vw;
+    width: 50vw;
+    color: aliceblue;
+    margin: 10vh auto;
+
+    
+}
+.date,time{
+    margin: 5px;
+}
+p a{
+    color: rgb(219, 46, 46);
+}
+.footer{
+    background-color: slategrey;
+    width: auto;
+    height: 5vh;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
